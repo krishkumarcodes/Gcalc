@@ -1,0 +1,44 @@
+# Gradle and Build Files
+.gradle/
+build/
+app/build/
+.kotlin/
+*.iml
+
+# Android Studio / IntelliJ
+.idea/
+*.iws
+*.ipr
+/captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Secrets & Environment
+.env
+.env.local
+.env.*.local
+debug.keystore
+debug.keystore.base64
+
+# Dependencies and Dist
+node_modules/
+dist/
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temporary & Decompiled Artifacts
+decompiled/
+decompiled_code/
+decompiled_tools/
+tmp/
+test.png
+test_rr.png
+public/assets/aistudio/
+
+# Application Packages (distributed via GitHub Releases)
+*.apk
+*.aab

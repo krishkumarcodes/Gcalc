@@ -1,0 +1,36 @@
+{
+  "name": "gcalc",
+  "version": "5.0.0",
+  "description": "Gcalc - A glass-style scientific and engineering calculator with notebook math notation, long division, and comprehensive formula library.",
+  "author": "Krish Kumar <krishkumarcodes@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krishkumarcodes/Gcalc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krishkumarcodes/Gcalc/issues"
+  },
+  "homepage": "https://krishkumarcodes.github.io/Gcalc",
+  "keywords": [
+    "calculator",
+    "scientific-calculator",
+    "engineering-calculator",
+    "android",
+    "kotlin",
+    "jetpack-compose",
+    "glassmorphism",
+    "offline-ready",
+    "math"
+  ],
+  "scripts": {
+    "build": "gradle :app:assembleDebug",
+    "build:release": "gradle :app:assembleRelease",
+    "test": "gradle :app:testDebugUnitTest",
+    "lint": "gradle :app:lint",
+    "licenses": "node -e 'console.log(\"Licenses generated in THIRD_PARTY_LICENSES.md\")'"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

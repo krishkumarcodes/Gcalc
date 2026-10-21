@@ -1,0 +1,8 @@
+{
+  "name": "Gcalc",
+  "description": "Gcalc - a glass scientific and engineering calculator with notebook math notation, long division, and comprehensive formula library.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
